@@ -1,0 +1,6 @@
+<div class="product-card">
+  <img src="{{ product.featured_image | image_url: 'medium' }}" alt="{{ product.title }}">
+  <h3>{{ product.title }}</h3>
+  <p>{{ product.price | currency }}</p>
+  <a href="{{ product.url }}">عرض المنتج</a>
+</div>

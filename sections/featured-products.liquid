@@ -1,0 +1,8 @@
+<h2>منتجات مميزة</h2>
+<ul>
+  {% for product in collections['featured'].products %}
+    <li>
+      {% include 'product-card' with product %}
+    </li>
+  {% endfor %}
+</ul>

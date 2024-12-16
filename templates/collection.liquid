@@ -1,0 +1,12 @@
+<h1>{{ collection.title }}</h1>
+<p>{{ collection.description }}</p>
+<ul>
+  {% for product in collection.products %}
+    <li>
+      <h3>{{ product.title }}</h3>
+      <img src="{{ product.featured_image | image_url: 'small' }}" alt="{{ product.title }}">
+      <p>{{ product.price | currency }}</p>
+      <a href="{{ product.url }}">عرض المنتج</a>
+    </li>
+  {% endfor %}
+</ul>

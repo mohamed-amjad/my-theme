@@ -1,0 +1,12 @@
+<h1>عربة التسوق</h1>
+<ul>
+  {% for item in cart.items %}
+    <li>
+      <h3>{{ item.product.title }}</h3>
+      <p>الكمية: {{ item.quantity }}</p>
+      <p>السعر: {{ item.line_price | currency }}</p>
+    </li>
+  {% endfor %}
+</ul>
+<p>المجموع: {{ cart.total_price | currency }}</p>
+<button>الاستمرار للدفع</button>
