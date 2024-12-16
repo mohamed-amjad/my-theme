@@ -1,9 +1,11 @@
 {
-  "name": "Salla Custom Theme",
-  "version": "1.0.0",
-  "author": "mohamed-amjad",
-  "settings": {
-    "color_primary": "#000000",
-    "font_family": "Arial"
-  }
+    "name": "My Custom Theme",
+    "version": "1.0.0",
+    "description": "قالب مخصص لمنصة سلة",
+    "author": "mohamed-amjad",
+    "layout": "default",
+    "assets": {
+        "css": ["styles/main.css"],
+        "js": ["scripts/main.js"]
+    }
 }
