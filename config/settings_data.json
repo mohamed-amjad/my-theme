@@ -1,9 +1,9 @@
 {
-    "settings": {
-      "banner_text": "مرحبًا بكم في متجرنا",
-      "button_text": "تسوق الآن",
-      "button_link": "/collections/all",
-      "banner_image": "hero.jpg"
-    }
+  "name": "Salla Custom Theme",
+  "version": "1.0.0",
+  "author": "mohamed-amjad",
+  "settings": {
+    "color_primary": "#000000",
+    "font_family": "Arial"
   }
-  
+}
